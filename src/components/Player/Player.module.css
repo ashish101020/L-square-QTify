@@ -1,0 +1,41 @@
+.player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  height: 98px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 8px 27px;
+  background-color: #121212;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.playHero {
+  width: 177px;
+  height: 82px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* top: 2070px; */
+  /* left: 32px; */
+  border-radius: 10px;
+}
+.imageDiv {
+  width: 78px;
+  height: 82px;
+  /* top: 2070px; */
+  /* left: 32px; */
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.image {
+  width: 75px;
+  height: 82px;
+  /* top: 2070px; */
+  /* left: 32px; */
+  border-radius: 10px;
+}

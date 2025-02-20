@@ -1,0 +1,17 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%;
+  z-index: 1000; /* Ensure it's above other content */
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+  background-color: #34c94b;
+  /* background-color: var(--color-primary); */
+  height: 74px;
+  /* width: 100vw; */
+  padding: 0px 32px ;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
