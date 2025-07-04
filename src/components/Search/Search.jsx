@@ -6,7 +6,7 @@ import { useAutocomplete } from "@mui/base";
 import { styled } from "@mui/system";
 import truncate from "../../helpers/helpers";
 import { useNavigate } from "react-router-dom";
-import { Tooltip } from "@mui/material";
+// import { Tooltip } from "@mui/material";
 import { CurrentListContext } from "../../helpers/CurrentListContext";
 
 const Listbox = styled("ul")(({ theme }) => ({
@@ -45,7 +45,7 @@ const Listbox = styled("ul")(({ theme }) => ({
 function Search({ searchData, placeholder }) {
   const {
     getRootProps,
-    getInputLabelProps,
+    // getInputLabelProps,
     value,
     getInputProps,
     getListboxProps,
